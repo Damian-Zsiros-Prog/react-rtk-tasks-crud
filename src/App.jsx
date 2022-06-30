@@ -11,9 +11,15 @@ function App() {
       <section className="flex items-center justify-center h-full">
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<TaskList />} />
-            <Route path="/createTask" element={<TaskForm />} />
-            <Route path="/updateTask/:id" element={<TaskForm />} />
+            <Route path="/react-rtk-tasks-crud" element={<TaskList />} />
+            <Route
+              path="/react-rtk-tasks-crud/createTask"
+              element={<TaskForm />}
+            />
+            <Route
+              path="/react-rtk-tasks-crud/updateTask/:id"
+              element={<TaskForm />}
+            />
           </Routes>
         </BrowserRouter>
       </section>

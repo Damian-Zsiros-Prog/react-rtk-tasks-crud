@@ -41,7 +41,7 @@ const TaskForm = () => {
         })
       )
     }
-    navigate("/")
+    navigate("/react-rtk-tasks-crud")
   }
 
   useEffect(() => {

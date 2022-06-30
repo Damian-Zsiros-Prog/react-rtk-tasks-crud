@@ -16,7 +16,7 @@ const Task = ({ infoTask }) => {
         <div className="flex gap-x-2">
           <Link
             className="bg-zinc-600 px-2 py-1 text-xs rounded-md"
-            to={`/updateTask/${infoTask.id}`}
+            to={`/react-rtk-tasks-crud/updateTask/${infoTask.id}`}
           >
             Editar
           </Link>

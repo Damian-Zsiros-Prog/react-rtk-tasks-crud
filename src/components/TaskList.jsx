@@ -10,7 +10,7 @@ const TaskList = () => {
         <h1>Tareas ({taskState.length})</h1>
         <Link
           className="bg-indigo-600 px-2 py-1 rounded-md text-md"
-          to={"/createTask"}
+          to={"/react-rtk-tasks-crud/createTask"}
         >
           Crear nueva tarea
         </Link>
